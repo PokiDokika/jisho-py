@@ -1,0 +1,6 @@
+README.md
+setup.py
+jisho.egg-info/PKG-INFO
+jisho.egg-info/SOURCES.txt
+jisho.egg-info/dependency_links.txt
+jisho.egg-info/top_level.txt
