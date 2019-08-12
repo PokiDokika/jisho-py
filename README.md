@@ -5,14 +5,14 @@ A simple Python wrapper for the API of Jisho.org
 You can install the module with pip with:
 
 ```
-python3 -m pip install jishopy
+python3 -m pip install jisho
 ``` 
 (Linux)
 
 or with:
 
 ```
-py -m pip install jishopy
+py -m pip install jisho
 ``` 
 (Windows)
 

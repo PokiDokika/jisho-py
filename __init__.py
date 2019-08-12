@@ -1,1 +1,2 @@
-name = "jisho"
+from .jisho import search
+name = "jishopy"

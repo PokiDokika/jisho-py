@@ -1,0 +1,6 @@
+README.md
+setup.py
+jishopy.egg-info/PKG-INFO
+jishopy.egg-info/SOURCES.txt
+jishopy.egg-info/dependency_links.txt
+jishopy.egg-info/top_level.txt

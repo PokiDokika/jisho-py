@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: jishopy
+Version: 0.0.1.1
+Summary: A simple Python wrapper for the API of Jisho.org
+Home-page: https://github.com/PokiDokika/jisho-py
+Author: Poki
+Author-email: poki@tuta.io
+License: MIT
+Description: UNKNOWN
+Keywords: jisho api python wrapper
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
