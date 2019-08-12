@@ -4,6 +4,8 @@ A simple Python wrapper for the API of Jisho.org
 ## Installation
 You can install the module with pip with:
 
+### NOTE! Pip installation is currently broken. If you wish to install the script, move it to your site-packages folder.
+
 ```
 python3 -m pip install jishopy
 ``` 
