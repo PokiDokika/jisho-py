@@ -81,7 +81,7 @@ print(jisho.search("hello")[0].iscommon)
 ```
 > True
 ```
-You can see the difficulty of a kanji (based on the (JLPT)[https://www.jlpt.jp/e/]) with:
+You can see the difficulty of a kanji (based on the [JLPT](https://www.jlpt.jp/e/)) with:
 ```python3
 # NOTE this will return an array!
 print(jisho.search("hello")[0].jlpt)
