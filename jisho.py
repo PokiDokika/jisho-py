@@ -61,34 +61,37 @@ def parse(data):
             except:
                 word = '' 
 
-            j = japanese(
-                word,
-                jar['reading'],
+            ja.append(
+                japanese(
+                    word,
+                    jar['reading'],
+                )
             )
-            ja.append(j)
 
         for enr in res['senses']:
             enm = []
             for ed in enr['english_definitions']:
                 enm.append(ed)
 
-            e = english(
-                enm
+            en.append(
+                english(
+                    enm
+                )
             )
-            en.append(e)
 
         if 'is_common' in res:
             common = res['is_common']
         else:
             common = False
 
-        r = jishoResult(
-            common,
-            res['jlpt'],
-            ja,
-            en
+        results.append(
+            jishoResult(
+                common,
+                res['jlpt'],
+                ja,
+                en
+            )
         )
-        results.append(r)
 
     return results
 
